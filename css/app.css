@@ -112,13 +112,15 @@ body {
 }
 
 .content-section .title {
+  word-wrap: break-word;
+
   font-size: 50px;
   font-family: Gibson, sans-serif;
 }
 
 .content-section .content {
+
   font-family: 'Monospace';
-  text-align: justify;
   font-size: 0.85em;
   padding-top: 8px;
 }
@@ -298,6 +300,10 @@ img.avatar {
     margin-right: 10px;
   }
 
+  .content-section .title {
+    font-size: 30px;
+  }
+
   .mobile.last {
     padding-bottom: 0px;
   }
@@ -337,6 +343,10 @@ img.avatar {
 
   .for-mobile {
     display: none;
+  }
+
+  .content-section .content {
+    text-align: justify;
   }
 
 }
