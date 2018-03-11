@@ -1,0 +1,3 @@
+[submodule "vik2018"]
+	path = vik2018
+	url = https://github.com/DotSlashCommunity/dsweb.git
